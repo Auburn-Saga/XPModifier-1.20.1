@@ -1,0 +1,17 @@
+{
+    "name": "Health Up",
+    "description": "Get 1.5 more hearts per level, from level 2 to level 20.",
+    "condition": {
+        "type": "origins:xp_levels",
+        "comparison": ">=",
+        "compare_to": 2
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 3
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Gnome",
+    "description": "Gnomes are a diminutive and often jovial race known for their affinity for craftsmanship, engineering, and a deep connection to the earth.",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:gnome_health",
+        "cacraces:gnome_height"
+    ],
+    "icon": {
+        "item": "minecraft:poppy"
+    },
+    "impact": 1
+}

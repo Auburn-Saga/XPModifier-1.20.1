@@ -1,0 +1,7 @@
+{
+    "name": "Rogue",
+    "powers": [
+        "cacclasses:rogue/sneakiness"
+    ],
+    "impact": 0
+}

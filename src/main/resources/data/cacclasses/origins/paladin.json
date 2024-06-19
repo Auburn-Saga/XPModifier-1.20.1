@@ -1,0 +1,7 @@
+{
+    "name": "Paladin",
+    "powers": [
+        "cacclasses:paladin/holy_glow"
+    ],
+    "impact": 0
+}

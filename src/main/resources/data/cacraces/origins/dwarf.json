@@ -1,0 +1,14 @@
+{
+    "name": "Dwarf",
+    "description": "Dwarves are a robust and industrious humanoid race renowned for their craftsmanship, resilience, and deep connection to the earth.",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:dwarf_health",
+        "cacraces:dwarf_height"
+    ],
+    "icon": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "upgrades": [],
+    "impact": 1
+}

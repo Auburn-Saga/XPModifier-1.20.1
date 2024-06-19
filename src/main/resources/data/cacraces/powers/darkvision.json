@@ -1,0 +1,10 @@
+{
+    "name": "Darkvision",
+    "description": "You can see much better than a human in dark environments.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:exposed_to_sky"
+    },
+    "type": "origins:night_vision",
+    "strength": 1
+}

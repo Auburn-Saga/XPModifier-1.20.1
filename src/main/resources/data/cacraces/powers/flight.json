@@ -1,0 +1,15 @@
+{
+    "name": "Flight",
+    "description": "Your wings allow you to fly.",
+    "type": "origins:multiple",
+    "flight": {
+        "type": "origins:creative_flight"
+    },
+    "wings": {
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+    "noelytraflight": {
+        "type": "origins:prevent_elytra_flight"
+    }
+}

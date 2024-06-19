@@ -1,0 +1,18 @@
+{
+    "name": "Sneaky Fox",
+    "description": "You are a very sneaky individual, so when you crouch you are hard to see. Some might even say you are invisible.",
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "invisibility",
+            "duration": 20,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

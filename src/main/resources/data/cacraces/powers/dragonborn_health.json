@@ -1,0 +1,11 @@
+{
+    "name": "Strong Scales",
+    "description": "Your strong scales give you a health buff of 5 hearts.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 10
+    },
+    "update_health": true
+}

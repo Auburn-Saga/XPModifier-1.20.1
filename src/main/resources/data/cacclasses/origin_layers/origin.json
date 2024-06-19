@@ -1,0 +1,22 @@
+{
+    "order": 10,
+    "origins": [
+        "cacclasses:barbarian",
+        "cacclasses:bard",
+        "cacclasses:cleric",
+        "cacclasses:druid",
+        "cacclasses:fighter",
+        "cacclasses:monk",
+        "cacclasses:paladin",
+        "cacclasses:ranger",
+        "cacclasses:rogue",
+        "cacclasses:sorceror",
+        "cacclasses:warlock",
+        "cacclasses:wizard"
+    ],
+    "enabled": true,
+    "name": "class",
+    "missing_name": "Nope",
+    "missing_description": "Not here",
+    "allow_random": true
+}

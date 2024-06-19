@@ -1,0 +1,11 @@
+{
+    "name": "Fairy Health",
+    "description": "You are small and somewhat weak, and your health reflects that, being only 5 hearts total.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": -10
+    },
+    "update_health": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Meaty Bones",
+    "description": "Dwarves are more resilient than humans, and thus have two extra hearts.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 4
+    },
+    "update_health": true
+}

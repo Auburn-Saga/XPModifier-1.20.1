@@ -1,0 +1,27 @@
+{
+    "name": "Bard",
+    "powers": [
+        "cacclasses:bard/bardic_inspiration",
+        "cacclasses:bard/tashas_hideous_laughter",
+        "cacclasses:bard/health/health_increase",
+        "cacclasses:bard/health/health_increase_lvl3",
+        "cacclasses:bard/health/health_increase_lvl4",
+        "cacclasses:bard/health/health_increase_lvl5",
+        "cacclasses:bard/health/health_increase_lvl6",
+        "cacclasses:bard/health/health_increase_lvl7",
+        "cacclasses:bard/health/health_increase_lvl8",
+        "cacclasses:bard/health/health_increase_lvl9",
+        "cacclasses:bard/health/health_increase_lvl10",
+        "cacclasses:bard/health/health_increase_lvl11",
+        "cacclasses:bard/health/health_increase_lvl12",
+        "cacclasses:bard/health/health_increase_lvl13",
+        "cacclasses:bard/health/health_increase_lvl14",
+        "cacclasses:bard/health/health_increase_lvl15",
+        "cacclasses:bard/health/health_increase_lvl16",
+        "cacclasses:bard/health/health_increase_lvl17",
+        "cacclasses:bard/health/health_increase_lvl18",
+        "cacclasses:bard/health/health_increase_lvl19",
+        "cacclasses:bard/health/health_increase_maxlvl"
+    ],
+    "impact": 0
+}

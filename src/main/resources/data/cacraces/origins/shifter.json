@@ -1,0 +1,13 @@
+{
+    "name": "Shifter",
+    "description": "Shifters are a versatile and primal race in fantasy literature and role-playing games, known for their ability to manifest animalistic traits through a form of controlled transformation.",
+    "powers": [
+        "cacraces:morph_tbd",
+        "cacraces:human_health",
+        "cacraces:human_height"
+    ],
+    "icon": {
+        "item": "minecraft:wolf_spawn_egg"
+    },
+    "impact": 2
+}

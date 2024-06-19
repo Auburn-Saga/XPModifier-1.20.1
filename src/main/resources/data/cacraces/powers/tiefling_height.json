@@ -1,0 +1,14 @@
+{
+    "name": "Tiefling Height",
+    "description": "You are taller than a human.",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "function cacraces:tiefling_height"
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    }
+}

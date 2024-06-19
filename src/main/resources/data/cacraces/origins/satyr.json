@@ -1,0 +1,13 @@
+{
+    "name": "Satyr",
+    "description": "Satyrs are spirited, woodland creatures with the upper body of a human and the lower body of a goat. Known for their love of revelry and music, they possess natural magic resistance and an affinity for nature. Agile and charismatic, satyrs are often found in forests, embodying both mischief and merriment.",
+    "powers": [
+        "cacraces:highdexterity",
+        "cacraces:human_health",
+        "cacraces:satyr_height"
+    ],
+    "icon": {
+        "item": "minecraft:goat_horn"
+    },
+    "impact": 1
+}

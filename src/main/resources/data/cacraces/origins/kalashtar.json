@@ -1,0 +1,12 @@
+{
+    "name": "Kalashtar",
+    "description": "Kalashtar are a unique and intriguing race in the realms of fantasy, known for their psychic abilities, spiritual connection, and dual existence.",
+    "powers": [
+        "cacraces:human_health",
+        "cacraces:kalashtar_height"
+    ],
+    "icon": {
+        "item": "minecraft:end_crystal"
+    },
+    "impact": 2
+}

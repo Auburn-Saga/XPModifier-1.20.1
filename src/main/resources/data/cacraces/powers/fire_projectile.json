@@ -1,0 +1,22 @@
+{
+    "name": "Fire Projectile",
+    "description": "You can shoot a line of fire when holding down your primary action button.",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 120,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 0
+    },
+    "count": 10,
+    "interval": 1,
+    "start_delay": 0,
+    "speed": 1.5,
+    "divergence": 10,
+    "sound": "minecraft:entity.ender_dragon.shoot",
+    "key": {
+        "key": "primary",
+        "continuous": true
+    }
+}

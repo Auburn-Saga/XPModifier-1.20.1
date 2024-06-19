@@ -1,0 +1,13 @@
+{
+    "name": "Half-Orc",
+    "description": "Half-orcs are a distinctive race in fantasy lore, born from the union of humans and orcs. They inherit physical traits from both parent races, resulting in individuals who are often larger and more robust than humans, with prominent orcish features such as prominent teeth, a strong jawline, and sometimes greenish or grayish skin tones.",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:half_orc_health",
+        "cacraces:half_orc_height"
+    ],
+    "icon": {
+        "item": "minecraft:iron_sword"
+    },
+    "impact": 1
+}

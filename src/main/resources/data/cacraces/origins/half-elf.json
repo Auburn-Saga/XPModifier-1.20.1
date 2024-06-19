@@ -1,0 +1,14 @@
+{
+    "name": "Half-Elf",
+    "description": "Half-elves are a hybrid race that embodies the blend of human and elven ancestry. Born of the union between humans and elves, half-elves inherit traits from both parent races, creating individuals who possess a unique combination of characteristics.",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:highdexterity",
+        "cacraces:human_health",
+        "cacraces:human_height"
+    ],
+    "icon": {
+        "item": "minecraft:enchanted_book"
+    },
+    "impact": 1
+}

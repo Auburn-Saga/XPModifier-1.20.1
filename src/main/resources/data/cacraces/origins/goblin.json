@@ -1,0 +1,14 @@
+{
+    "name": "Goblin",
+    "description": "Goblins are a versatile and varied race found in mythologies, folklore, and fantasy worlds, known for their cunning, mischief, and often unpredictable nature.",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:highdexterity",
+        "cacraces:goblin_health",
+        "cacraces:goblin_height"
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "impact": 1
+}

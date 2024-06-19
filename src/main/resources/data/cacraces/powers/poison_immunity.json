@@ -1,0 +1,6 @@
+{
+    "name": "Poison Immunity",
+    "description": "You are immune to poison damage.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:poison"
+}

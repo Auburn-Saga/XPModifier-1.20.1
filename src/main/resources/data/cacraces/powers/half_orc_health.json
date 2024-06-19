@@ -1,0 +1,11 @@
+{
+    "name": "Thick Skin",
+    "description": "Your orc half lends you tough skin, giving you 3 extra hearts",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 6
+    },
+    "update_health": true
+}

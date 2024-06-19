@@ -1,0 +1,13 @@
+{
+    "name": "Kobold",
+    "description": "Kobolds are small, reptilian humanoids known for their cunning and resourcefulness. Often living in underground warrens, they have darkvision and a knack for traps and teamwork. Though physically weak, their agility and pack tactics make them formidable in numbers.",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:kobold_health",
+        "cacraces:kobold_height"
+    ],
+    "icon": {
+        "item": "minecraft:redstone"
+    },
+    "impact": 1
+}

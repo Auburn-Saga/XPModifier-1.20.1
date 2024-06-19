@@ -1,0 +1,16 @@
+{
+    "name": "Dragonborn",
+    "description": "Dragonborn are proud, dragon-like humanoids known for their strength, resilience, and a powerful breath weapon that reflects their draconic ancestry. Standing tall with scales and often horns, they embody the fierce and noble traits of their dragon kin.",
+    "powers": [
+        "cacraces:fire_immunity",
+        "cacraces:fire_projectile",
+        "cacraces:strength",
+        "cacraces:slowness",
+        "cacraces:dragonborn_health",
+        "cacraces:dragonborn_height"
+    ],
+    "icon": {
+        "item": "minecraft:dragon_head"
+    },
+    "impact": 2
+}

@@ -1,0 +1,28 @@
+{
+    "order": 0,
+    "origins": [
+        "cacraces:changeling",
+        "cacraces:dragonborn",
+        "cacraces:dwarf",
+        "cacraces:elf",
+        "cacraces:fairy",
+        "cacraces:gnome",
+        "cacraces:goblin",
+        "cacraces:half-elf",
+        "cacraces:half-orc",
+        "cacraces:human",
+        "cacraces:kalashtar",
+        "cacraces:kobold",
+        "cacraces:satyr",
+        "cacraces:shifter",
+        "cacraces:tiefling",
+        "cacraces:warforged"
+    ],
+    "enabled": true,
+    "replace": true,
+    "loading_priority": 0,
+    "name": "race",
+    "missing_name": "None",
+    "missing_description": "Nothing here. Move along.",
+    "allow_random": true
+}

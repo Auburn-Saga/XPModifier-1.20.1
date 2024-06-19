@@ -1,0 +1,11 @@
+{
+    "name": "Big Lug",
+    "description": "You are big, and thus have a harder time getting around, so you are a bit slower.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.movement_speed",
+        "operation": "addition",
+        "value": -0.01
+    },
+    "update_health": true
+}

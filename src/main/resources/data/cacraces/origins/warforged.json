@@ -1,0 +1,16 @@
+{
+    "name": "Warforged",
+    "description": "Warforged are a fascinating and unique race in fantasy literature and role-playing games, originating from the Eberron campaign setting for Dungeons & Dragons. They are sentient constructs created through a blend of magic and advanced artifice, designed for purposes of war and service.",
+    "powers": [
+        "cacraces:poison_immunity",
+        "cacraces:strength",
+        "cacraces:nothungry",
+        "cacraces:slowness",
+        "cacraces:warforged_health",
+        "cacraces:warforged_height"
+    ],
+    "icon": {
+        "item": "minecraft:iron_golem_spawn_egg"
+    },
+    "impact": 1
+}

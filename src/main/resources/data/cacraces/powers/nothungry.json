@@ -1,0 +1,7 @@
+{
+    "name": "Machines Don't Eat",
+    "description": "You are a machine, so you don't need to eat.",
+    "type": "origins:exhaust",
+    "interval": 20,
+    "exhaustion": 0
+}

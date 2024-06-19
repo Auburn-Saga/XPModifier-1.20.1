@@ -1,0 +1,5 @@
+{
+    "name": "Human Health",
+    "description": "You have the same health as a human.",
+    "type": "origins:simple"
+}

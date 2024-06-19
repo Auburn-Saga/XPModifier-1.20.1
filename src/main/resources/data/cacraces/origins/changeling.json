@@ -1,0 +1,13 @@
+{
+    "name": "Changeling",
+    "description": "Changelings are a fascinating and often mysterious race in fantasy and folklore, known for their ability to shapeshift and their connection to themes of transformation and identity. ",
+    "powers": [
+        "cacraces:morph_tbd",
+        "cacraces:human_health",
+        "cacraces:human_height"
+    ],
+    "icon": {
+        "item": "minecraft:ender_pearl"
+    },
+    "impact": 2
+}

@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.peanutgallery66.cacmod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PlayerEntityMixin",
+		"EnchantmentContainerMixin",
+		"EnchantmentScreenMixin",
+		"HandledScreenAccessor",
+		"EnchantmentScreenAccessor",
+		"ScreenAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Holy Glow",
+    "description": "You are a holy patron of gods. You just glow.",
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 1,
+    "green": 1,
+    "blue": 1
+}

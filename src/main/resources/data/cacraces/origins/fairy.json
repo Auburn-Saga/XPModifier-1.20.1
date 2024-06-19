@@ -1,0 +1,13 @@
+{
+    "name": "Fairy",
+    "description": "Fairies are small, magical beings with delicate wings, often associated with nature and enchantment. They are known for their agility, innate spellcasting abilities, and the ability to fly, making them elusive and charming creatures in any fantasy setting.",
+    "powers": [
+        "cacraces:flight",
+        "cacraces:fairy_health",
+        "cacraces:fairy_height"
+    ],
+    "icon": {
+        "item": "minecraft:elytra"
+    },
+    "impact": 2
+}

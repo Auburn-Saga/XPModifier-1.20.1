@@ -1,0 +1,29 @@
+{
+    "name": "Strongest Boi",
+    "description": "At level 20, you do even more natural damage, stay in place and throw mobs further.",
+    "condition": {
+        "type": "origins:xp_levels",
+        "comparison": ">=",
+        "compare_to": 20
+    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "addition",
+            "value": 6
+        },
+        {
+            "attribute": "generic.attack_knockback",
+            "operation": "addition",
+            "value": 3
+        },
+        {
+            "attribute": "generic.knockback_resistance",
+            "operation": "addition",
+            "value": 0.6
+        }
+    ],
+    "tick_rate": 20,
+    "update_health": true
+}

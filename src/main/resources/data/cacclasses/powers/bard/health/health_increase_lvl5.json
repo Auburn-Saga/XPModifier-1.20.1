@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:xp_levels",
+        "comparison": ">=",
+        "compare_to": 5
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": 3
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

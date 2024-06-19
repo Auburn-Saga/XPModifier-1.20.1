@@ -1,0 +1,14 @@
+{
+    "name": "Elf",
+    "description": "Elves are an ancient and enigmatic race known for their grace, beauty, and affinity for nature. ",
+    "powers": [
+        "cacraces:darkvision",
+        "cacraces:highdexterity",
+        "cacraces:human_health",
+        "cacraces:elf_height"
+    ],
+    "icon": {
+        "item": "minecraft:bow"
+    },
+    "impact": 1
+}

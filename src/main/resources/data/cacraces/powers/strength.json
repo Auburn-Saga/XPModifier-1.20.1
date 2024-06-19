@@ -1,0 +1,9 @@
+{
+    "name": "Strong",
+    "description": "You are made for the battlefield, giving you natural strength.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 1.5
+    }
+}

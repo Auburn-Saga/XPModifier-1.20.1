@@ -1,0 +1,23 @@
+{
+    "name": "Strong Boi",
+    "description": "You do more damage, push enemies further and get pushed less.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "addition",
+            "value": 2
+        },
+        {
+            "attribute": "generic.attack_knockback",
+            "operation": "addition",
+            "value": 1
+        },
+        {
+            "attribute": "generic.knockback_resistance",
+            "operation": "addition",
+            "value": 0.2
+        }
+    ],
+    "update_health": true
+}

@@ -1,0 +1,148 @@
+{
+    "name": "Tasha's Hideous Laughter",
+    "description": "At level 5, you can paralyze any entity for 10 seconds with unstoppable laughter using your instrument of choice.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:xp_levels",
+                "comparison": ">=",
+                "compare_to": 5
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:banjo"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:lyre"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:violin"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:flute"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:cello"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:oboe"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:redstone_guitar"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "xercamusic:bass_guitar"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 20,
+        "block": true,
+        "entity": true,
+        "shape_type": "collider",
+        "fluid_handling": "none",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "slowness",
+                    "duration": 200,
+                    "amplifier": 10,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            }
+        },
+        "before_action": {
+            "type": "origins:execute_command",
+            "command": "say Cast Tasha's Hideous Laughter!"
+        },
+        "command_at_hit": "particle minecraft:explosion",
+        "command_along_ray": "particle minecraft:soul_fire_flame",
+        "command_step": 1,
+        "command_along_ray_only_on_hit": true
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 3,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:stick"
+                }
+            }
+        }
+    },
+    "key": {
+        "key": "key.attack"
+    }
+}

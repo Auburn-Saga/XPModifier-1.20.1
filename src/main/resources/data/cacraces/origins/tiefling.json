@@ -1,0 +1,13 @@
+{
+    "name": "Tiefling",
+    "description": "Tieflings are a captivating and often misunderstood race in fantasy literature and role-playing games, known for their infernal heritage and distinctive physical traits. They are descendants of humans who made pacts with dark forces or infernal beings, resulting in their lineage being tainted by fiendish blood.",
+    "powers": [
+        "cacraces:fire_immunity",
+        "cacraces:tiefling_health",
+        "cacraces:tiefling_height"
+    ],
+    "icon": {
+        "item": "minecraft:quartz"
+    },
+    "impact": 1
+}

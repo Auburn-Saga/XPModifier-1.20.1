@@ -1,0 +1,12 @@
+{
+    "name": "Human",
+    "description": "Humans are a diverse and adaptable race found across countless worlds and settings in fantasy and science fiction literature, games, and folklore.",
+    "powers": [
+        "cacraces:human_health",
+        "cacraces:human_height"
+    ],
+    "icon": {
+        "item": "minecraft:player_head"
+    },
+    "impact": 0
+}
