@@ -94,7 +94,7 @@
             "type": "origins:either",
             "condition": {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:zombie"
+                "entity_type": "minecraft:player"
             }
         },
         "bientity_action": {

@@ -9,7 +9,7 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "invisibility",
-            "duration": 20,
+            "duration": 600,
             "amplifier": 0,
             "show_particles": false,
             "show_icon": true
